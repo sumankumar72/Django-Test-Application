@@ -1,5 +1,4 @@
 #!/bin/sh
-
 ssh school@35.200.226.107 <<EOF
  projname=test
  ssh_pass=Q7fvjcKGi5dxpZax
