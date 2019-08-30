@@ -9,8 +9,6 @@ ssh school@35.200.226.107 <<EOF
  proj_dir=/home/multi/order.nathabit/backend/www
  env_dir=/home/multi/order.nathabit/backend
 
-
-
  echo "project name =  \${projname}"
 
  exec_cmd()
