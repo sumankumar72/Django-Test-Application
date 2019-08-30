@@ -2,12 +2,11 @@
 
 ssh school@35.200.226.107 <<EOF
  projname=test
- ssh_pass=Q7fvjcKGi5dxpZax
  git_branch=staging
  multi_tenant=0
  req_txt=requirements.txt
- proj_dir=/home/multi/order.nathabit/backend/www
- env_dir=/home/multi/order.nathabit/backend
+ proj_dir=/home/www
+ env_dir=/home/env
 
  echo "project name =  \${projname}"
 # testing
