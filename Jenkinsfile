@@ -9,7 +9,7 @@ node {
             checkout scm
         stage 'Deploy'
             print 'Deploy Done'
-        stage 'Publish':
+        stage 'Publish'
             print 'Publish Done'
     }
     catch (err) {
